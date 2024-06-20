@@ -60,8 +60,7 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 * The model is deployed using Flask at Heroku server at the [link](https://.com/)
 
 # If you like this project please do give a star. I am also giving my LinkedIn profile. If you want we can connect there too
-[https://www.linkedin.com/in/manav-chandak-078836215/](www.linkedin.com/in/manav-chandak-078836215)
-
+https://www.linkedin.com/in/manav-chandak-078836215/
 
 
 
