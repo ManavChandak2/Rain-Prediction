@@ -3,7 +3,7 @@ A project on predicting whether it will rain tomorrow or not by using the Rainfa
 This project is tested over lot of ml models like catboost, xgboost, random forest, support vector classifier, etc..
 Out of these models catboost performed very well giving an AUC score around and ROC score of 89 far better than others.
 Here due to my system compatibility is very low. So I havent done hyperparameter tuning. But it is highly recommended to do it if possible.
-# Website Link: ["https://.com/"](https://.com/)
+# Website Link: ["https://rainy-brain.herokuapp.com/"](https://rainy-brain.herokuapp.com/)
 
 # Testing values
 
@@ -57,7 +57,7 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 * Out of these catboost, random forest and support vector machines were top 3
 * The conclusion were made using classification metrics. roc curve and auc score
 # Model Deployment
-* The model is deployed using Flask at Heroku server at the [link](https://.com/)
+* The model is deployed using Flask at Heroku server at the [link](https://rainy-brain.herokuapp.com/)
 
 # If you like this project please do give a star. I am also giving my LinkedIn profile. If you want we can connect there too
 https://www.linkedin.com/in/manav-chandak-078836215/
