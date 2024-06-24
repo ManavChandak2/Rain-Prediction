@@ -91,10 +91,12 @@ def predict():
                           windDir9am, windDir3pm, windSpeed9am, windSpeed3pm, humidity9am, humidity3pm, pressure9am,
                           pressure3pm, cloud9am, cloud3pm, temp9am, temp3pm, rainToday, month, day]]
             pred = model.predict(input_lst)
-            output = pred[0]
 
             # Provide a valid response
-            return jsonify(prediction=int(output))
+            if pred == 1:
+                     return render_template('after_rainy.html')
+            else:
+                return render_template('after_sunny.html')
 
         except Exception as e:
             return jsonify({"error": str(e)})
