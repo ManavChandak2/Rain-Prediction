@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-import pandas as pd
+import pandas as pd # type: ignore
 import pickle
 
 # Using raw strings to specify the file path
